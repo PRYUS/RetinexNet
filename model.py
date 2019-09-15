@@ -210,6 +210,7 @@ class lowlight_enhance(object):
 
     def load(self, saver, ckpt_dir):
         ckpt = tf.train.get_checkpoint_state(ckpt_dir)
+        print(ckpt_dir)
         if ckpt and ckpt.model_checkpoint_path:
             full_path = tf.train.latest_checkpoint(ckpt_dir)
             try:
