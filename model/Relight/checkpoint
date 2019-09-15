@@ -1,2 +1,2 @@
-model_checkpoint_path: "RetinexNet-tensorflow"
-all_model_checkpoint_paths: "RetinexNet-tensorflow"
+model_checkpoint_path: "/content/RetinexNet/model/Relight/RetinexNet-tensorflow"
+all_model_checkpoint_paths: "/content/RetinexNet/model/Relight/RetinexNet-tensorflow"
